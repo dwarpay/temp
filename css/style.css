@@ -1684,11 +1684,15 @@ h6 {
   }
   
   .video-component__poster:before {
-    top: 50%;
+    top: 40%;
   }
 
   .video-component__poster:after {
-    top: 50%;
+    top: 40%;
+  }
+
+  .video-component__poster:hover:hover:after {
+    top: 40%
   }
 
   .flip-card-front {
