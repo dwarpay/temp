@@ -199,7 +199,7 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: -18 0;
-  max-height: 68px;
+  max-height: 112px;
 }
 
 .main-pages {
@@ -1565,6 +1565,17 @@ h6 {
 .video-component__poster {
   background: none;
   border: none;
+  outline:none;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  width: 90px;
+  height: 90px;
+}
+
+.video-component__poster:focus {
+  border: none;
+  outline: none;
 }
 
 .video-component__poster:before {
@@ -1620,6 +1631,26 @@ h6 {
   box-shadow: 0 0px 27px #7b68ee;
 }
 
+.modal-content {
+  padding: 0;
+  background-color: transparent !important;
+  border: none;
+  width: 700px !important;
+  height: 430px;
+  border-radius: 18px !important;
+}
+
+.modal-body {
+  width: 100%;
+  height: 100%
+}
+
+.vedioPlayer{
+  border: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
@@ -1682,6 +1713,11 @@ h6 {
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
+  }
+
+  .video-component__poster {
+    background: none;
+    border: none;
   }
 
   .aboutus {
