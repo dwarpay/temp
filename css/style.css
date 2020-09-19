@@ -1562,6 +1562,11 @@ h6 {
   margin: 4px;
 }
 
+.video-component__poster {
+  background: none;
+  border: none;
+}
+
 .video-component__poster:before {
   content: '';
   position: absolute;
