@@ -1714,10 +1714,25 @@ h6 {
   .back-to-top {
     bottom: 15px;
   }
-
+  .video-component__poster:focus {
+    border: none;
+    outline: none;
+  }
   .video-component__poster {
     background: none;
     border: none;
+  }
+
+  .modal-body {
+    width: 100%;
+    height: 100%
+  }
+  
+  .vedioPlayer{
+    border: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
   }
 
   .aboutus {
