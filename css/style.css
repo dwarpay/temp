@@ -1566,11 +1566,6 @@ h6 {
   background: none;
   border: none;
   outline:none;
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  width: 90px;
-  height: 90px;
 }
 
 .video-component__poster:focus {
