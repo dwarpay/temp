@@ -199,7 +199,11 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: -33px 0;
-  max-height: 112px;
+  max-width: 100px;
+}
+
+.logo .float-left {
+ max-width: 111px; 
 }
 
 .main-pages {
@@ -1761,7 +1765,7 @@ h6 {
 
   #header .logo {
     padding: 0;
-    max-width: 30px;
+    max-width: 60px;
   }
 
   .modal-body {
