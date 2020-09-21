@@ -1238,6 +1238,10 @@ h6 {
   background: #f5f8fd;
 }
 
+#footer .footer-top .container {
+  text-align: center;
+}
+
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
 }
@@ -1753,6 +1757,11 @@ h6 {
   .video-component__poster {
     background: none;
     border: none;
+  }
+
+  #header .logo {
+    padding: 0;
+    max-width: 30px;
   }
 
   .modal-body {
