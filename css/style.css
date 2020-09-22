@@ -198,9 +198,8 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  margin: -33px 0;
-  max-height: 112px;
-  max-width: 112px;
+  margin: -10px 0px;
+  max-width: 87px;
 }
 
 .logo .float-left {
